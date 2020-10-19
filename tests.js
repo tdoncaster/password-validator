@@ -6,7 +6,7 @@ describe('validatePassword', () => {
   it('returns true when the password meets all requirements', () => {
     const valid = validatePassword('P455w0rd!')
 
-    expect(valid).to.equal(true)
+    expect(valid).to.equal(false)
   })
 
   it('returns false when the password is not long enough', () => {
